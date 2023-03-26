@@ -1,0 +1,354 @@
+--Map: Every Second You Get +1 Jump
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("All Hub", "Synapse")
+local Tab = Window:NewTab("Farm")
+local Section = Tab:NewSection("Earth Tower")
+Section:NewButton("Click", "Click to go end", function()
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10242.20703125, 1871.864013671875, 128.54251098632812)
+end)
+Section:NewToggle("AutoFarm", "Click to Auto Farm", function(state)
+_G.AutoFarm = true
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10242.20703125, 1871.864013671875, 128.54251098632812)
+    else
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9862.9619140625, 8982.228515625, -44.44383239746094)
+            end
+        end
+    end
+end
+end)
+local Section = Tab:NewSection("Obby Tower")
+Section:NewButton("Click", "Click to go end", function()
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9859.462890625, 8982.228515625, -44.935150146484375)
+end)
+Section:NewToggle("AutoFarm", "Click to Auto Farm", function(state)
+_G.AutoFarm = true
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9859.462890625, 8981.6923828125, -44.93474197387695)
+    else
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9862.9619140625, 8982.228515625, -44.44383239746094)
+            end
+        end
+    end
+end
+end)
+local Section = Tab:NewSection("Walls")
+Section:NewButton("Click", "Click to go end", function()
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9557.455078125, 0.23051756620407104, 35.21581268310547)
+end)
+Section:NewToggle("AutoFarm", "Click to Auto Farm", function(state)
+_G.AutoFarm = true
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9557.455078125, 1.9426250457763672, 35.21581268310547)
+    else
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9862.9619140625, 8982.228515625, -44.44383239746094)
+            end
+        end
+    end
+end
+end)
+local Section = Tab:NewSection("VIP Tower")
+Section:NewButton("Click", "Click to go end", function()
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10471.0693359375, 1002.2303466796875, 53.29023361206055)
+end)
+Section:NewToggle("AutoFarm", "Click to Auto Farm", function(state)
+_G.AutoFarm = true
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10470.89453125, 1026.7392578125, 51.87337875366211)
+    else
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9862.9619140625, 8982.228515625, -44.44383239746094)
+            end
+        end
+    end
+end
+end)
+local Section = Tab:NewSection("Red Tower")
+Section:NewButton("Click", "Click to go end", function()
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10470.0322265625, 2536.22998046875, -13.564038276672363)
+end)
+Section:NewToggle("AutoFarm", "Click to Auto Farm", function(state)
+_G.AutoFarm = true
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10470.0322265625, 2541.2744140625, -13.56403923034668)
+    else
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9862.9619140625, 8982.228515625, -44.44383239746094)
+            end
+        end
+    end
+end
+end)
+local Section = Tab:NewSection("Moon Tower")
+Section:NewButton("Click", "Click to go end", function()
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5120.36181640625, 6207.5048828125, 146.2849578857422)
+end)
+Section:NewToggle("AutoFarm", "Click to Auto Farm", function(state)
+_G.AutoFarm = true
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5120.36181640625, 6207.5048828125, 146.2849578857422)
+    else
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9862.9619140625, 8982.228515625, -44.44383239746094)
+            end
+        end
+    end
+end
+end)
+local Section = Tab:NewSection("Lava Tower")
+Section:NewButton("Click", "Click to go end", function()
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-47.99697494506836, 8742.1572265625, 147.11900329589844)
+end)
+Section:NewToggle("AutoFarm", "Click to Auto Farm", function(state)
+_G.AutoFarm = true
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-47.99697494506836, 8742.1572265625, 147.11900329589844)
+    else
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9862.9619140625, 8982.228515625, -44.44383239746094)
+            end
+        end
+    end
+end
+end)
+local Section = Tab:NewSection("Ice Tower")
+Section:NewButton("Click", "Click to go end", function()
+ game.Players.LocalPlayer.Chgame.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5025.70166015625, 13432.689453125, 158.78395080566406)
+end)
+Section:NewToggle("AutoFarm", "Click to Auto Farm", function(state)
+_G.AutoFarm = true
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5025.70166015625, 13432.689453125, 158.78395080566406)
+    else
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9862.9619140625, 8982.228515625, -44.44383239746094)
+            end
+        end
+    end
+end
+end)
+local Section = Tab:NewSection("Flower Tower")
+Section:NewButton("Click", "Click to go end", function()
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10094.412109375, 19193.970703125, 173.90753173828125)
+end)
+Section:NewToggle("AutoFarm", "Click to Auto Farm", function(state)
+_G.AutoFarm = true
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10094.412109375, 19193.970703125, 173.90753173828125)
+    else
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9862.9619140625, 8982.228515625, -44.44383239746094)
+            end
+        end
+    end
+end
+end)
+local Section = Tab:NewSection("Snow Tower")
+Section:NewButton("Click", "Click to go end", function()
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(15385.767578125, 27331.3359375, 187.37014770507812)
+end)
+Section:NewToggle("AutoFarm", "Click to Auto Farm", function(state)
+_G.AutoFarm = true
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(15385.767578125, 27331.3359375, 187.37014770507812)
+    else
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9862.9619140625, 8982.228515625, -44.44383239746094)
+            end
+        end
+    end
+end
+end)
+local Section = Tab:NewSection("Dark Tower")
+Section:NewButton("Click", "Click to go end", function()
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(20504.099609375, 45665.109375, 208.52980041503906)
+end)
+Section:NewToggle("AutoFarm", "Click to Auto Farm", function(state)
+_G.AutoFarm = true
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(20504.099609375, 45665.109375, 208.52980041503906)
+    else
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9862.9619140625, 8982.228515625, -44.44383239746094)
+            end
+        end
+    end
+end
+end)
+local Section = Tab:NewSection("Void Tower")
+Section:NewButton("Click", "Click to go end", function()
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(25623.037109375, 64007.2265625, 241.19078063964844)
+end)
+Section:NewToggle("AutoFarm", "Click to Auto Farm", function(state)
+_G.AutoFarm = true
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(25623.037109375, 64007.2265625, 241.19078063964844)
+    else
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(25623.037109375, 64015.98046875, 241.19078063964844)
+            end
+        end
+    end
+end
+end)
+local Section = Tab:NewSection("Desert Tower")
+Section:NewButton("Click", "Click to go end", function()
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(30744.716796875, 82354.375, 262.6265563964844)
+end)
+Section:NewToggle("AutoFarm", "Click to Auto Farm", function(state)
+_G.AutoFarm = true
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(30744.716796875, 82354.375, 262.6265563964844)
+    else
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9862.9619140625, 8982.228515625, -44.44383239746094)
+            end
+        end
+    end
+end
+end)
+local Section = Tab:NewSection("Forest Tower")
+Section:NewButton("Click", "Click to go end", function()
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(35864.38671875, 102662.28125, 297.08978271484375)
+end)
+Section:NewToggle("AutoFarm", "Click to Auto Farm", function(state)
+_G.AutoFarm = true
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(35864.38671875, 102662.28125, 297.08978271484375)
+    else
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9862.9619140625, 8982.228515625, -44.44383239746094)
+            end
+        end
+    end
+end
+end)
+local Section = Tab:NewSection("Candy Tower")
+Section:NewButton("Click", "Click to go end", function()
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(40983.8671875, 122847.21875, 327.661376953125)
+end)
+Section:NewToggle("AutoFarm", "Click to Auto Farm", function(state)
+_G.AutoFarm = true
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(40983.8671875, 122847.21875, 327.661376953125)
+    else
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9862.9619140625, 8982.228515625, -44.44383239746094)
+            end
+        end
+    end
+end
+end)
+local Section = Tab:NewSection("Steampunk Tower")
+Section:NewButton("Click", "Click to go end", function()
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(46105.1171875, 143082.125, 356.6328430175781)
+end)
+Section:NewToggle("AutoFarm", "Click to Auto Farm", function(state)
+_G.AutoFarm = true
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(46105.1171875, 143082.125, 356.6328430175781)
+    else
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9862.9619140625, 8982.228515625, -44.44383239746094)
+            end
+        end
+    end
+end
+end)
+local Section = Tab:NewSection("Beach Tower")
+Section:NewButton("Click", "Click to go end", function()
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(51223.90234375, 163340.625, 388.0771484375)
+end)
+Section:NewToggle("AutoFarm", "Click to Auto Farm", function(state)
+_G.AutoFarm = true
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(51223.90234375, 163340.625, 388.0771484375)
+    else
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9862.9619140625, 8982.228515625, -44.44383239746094)
+            end
+        end
+    end
+end
+end)
+local Section = Tab:NewSection("Heaven Tower")
+Section:NewButton("Click", "Click to go end", function()
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(56345.74609375, 183590.625, 416.6386413574219)
+end)
+Section:NewToggle("AutoFarm", "Click to Auto Farm", function(state)
+_G.AutoFarm = true
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(56345.74609375, 183590.625, 416.6386413574219)
+    else
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+    if state then
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9862.9619140625, 8982.228515625, -44.44383239746094)
+            end
+        end
+    end
+end
+end)
+local Tab = Window:NewTab("Setting")
+local Section = Tab:NewSection("Jump power")
+Section:NewSlider("JumpPower", "Slider to get more jumppower", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+Section:NewSlider("Speed", "Slider to get more speed", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end)
